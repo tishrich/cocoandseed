@@ -1,0 +1,238 @@
+/*
+ * Author: Tishana Richards
+ * URL: http://cocoandseed.com
+ *
+ * Designed and coded in 2015
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+/*****************************/
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    font-family:'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /*background-image: url('/imgs/texturetastic_gray.png');*/
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+a{
+    text-decoration: none !important;
+
+}
+
+hr{
+    color: #000;
+    width: 250px;
+    margin: 30px auto;
+    border: 1px dashed #000;
+}
+
+.spbottom{
+    margin-bottom: 30px;
+}
+/********************/
+
+.short{
+    width: 100px;
+}
+
+.container{
+   padding-bottom: 100px;
+}
+
+ul, ol {
+    padding: 0;
+}
+/**********NavBar*********/
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/*.navbar-default .navbar-brand {
+    color: #fff;
+}*/
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 1px dashed #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+/*****************************/
+
+
+.wrap{
+    text-align: center;
+}
+
+.wrap h1{
+    font-size: 36px;
+
+}
+
+#hero {
+    /*background-image: url('../imgs/texturetastic_gray.png');*/
+    background-image: url('../imgs/backgroundimg.jpg');
+    background-repeat: no-repeat;
+    opacity: .8;
+    /*background-size: cover;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    min-height: 500px;
+}
+
+#hero img{
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.outline{
+   border: 1px solid #FFF;
+   color: #FFF;
+   padding: 10px 40px;
+   border-radius: 15px;
+   font-weight: bolder;
+    margin-top: 50px;
+    display:inline-block;
+}
+
+.outline:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#hero i {
+
+    color: #000;
+    margin-top: 200px;
+}
+
+/**********FIRST***********/
+
+
+#main-content{
+    background-image: url('../imgs/texturetastic_gray.png');
+    /*background-color: #fff;*/
+    min-height: 400px;
+}
+
+#main-content p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+#main-content h4{
+    color: #333;
+}
+
+.about-content{
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.title{
+    color: #000;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/******FEATURED*******/
+
+#featured{
+    /*background-color: #eee;*/
+    background-image: url('../imgs/texturetastic_gray.png');
+}
+#featured .container{
+    padding-bottom: 150px;
+}
+
+.featured-one{
+    border: #000 1px solid;
+    border-radius: 5px; 
+}
+
+/* Gallery */
+.imgset {
+    margin-top: 30px;
+}
+
+.imgset img:hover {
+    opacity: 0.8;
+}
+
+
+
+/*********SHOP************/
+
+.shop.container{
+    padding-bottom: 0px;
+}
+#my-cart-6819640{
+    top: 0;
+    position: absolute;
+}
+
+
+/*********ABOUT************/
+
+.container{
+    max-width: 800px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/*********FOOTER**********/
+.footer .container-fluid{
+    background-color: goldenrod;
+    border-top: 1px solid #fff;
+    /*padding-bottom: 60px;*/
+}
+
+.footer i {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer p {
+    font-size: 18px;
+    padding: 15px;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer li{
+    display: inline;
+    text-decoration: none;
+}
